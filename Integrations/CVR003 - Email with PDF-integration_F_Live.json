@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5e6b4285a7c8e",
+        "Name": "CVR003 - Email with PDF",
+        "Type": "EMAIL",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "Community",
+        "data_type": "integration",
+        "allow_offline": 0,
+        "Output_template": "{\"subject\":\"{TEST}Coronavirus - staff question\",\"fromName\":\"{NoReplyEmail_N}\",\"from\":\"{NoReplyEmail}\",\"recipients_to\":\"customerservices@portsmouthcc.gov.uk\",\"recipients_cc\":\"\",\"recipients_bcc\":\"\",\"pdf_attachments\":\"5e6b419b12000\",\"body\":\"<p>A staff question about the coronavirus has been submitted by:&nbsp;{First_Name} {Surname}</p>\\n\\n<p>View the attached PDF for details.</p>\",\"attachments\":\"\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portsmouthcc.gov.uk\"}"
+    }
+]
